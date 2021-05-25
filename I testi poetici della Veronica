@@ -1,0 +1,183 @@
+﻿<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:sqf="http://www.schematron-quickfix.com/validator/process" xmlns:sch="http://purl.oclc.org/dsdl/schematron" 
+xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">
+
+  <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+    <fileDesc>
+      <titleStmt>
+        <title>I testi poetici della "Veronica" di Don Vincenzo Toraldo d'Aragona</title>
+        <author> Vincenzo Toraldo d'Aragona</author>
+        <date>1589</date>
+        <respStmt xml:id="lfarris">
+         <resp>ha curato l'edizione</resp>
+         <persName>Luca Farris</persName>
+        </respStmt>,
+      </titleStmt>
+      <editionStmt> 
+          <edition><p> Questo progetto nasce da un'edizione interpretativa, realizzata come tesi di laurea triennale (non pubblicata),
+           de "La Veronica, o del sonetto", dialogo di Don Vincenzo Toraldo d'Aragona. 
+      All'interno del dialogo l'autore inserisce alcuni testi poetici, composti con il nome di Risvegliato nell'ambito 
+      dell'Accademia degli Svegliati di Napoli, probabilmente tra il 1584 ed il 1589. Si procederà in questa sede all'edizione di questi
+       testi.
+      </p></edition>
+      </editionStmt>
+      <extent>DA COMPILARE</extent>
+      <publicationStmt>
+        <p> DA COMPILARE</p>
+<date when="DA COMPILARE" ></date>       
+        <availability>
+        <p>Questa risorsa è liberamente accessibile per uso personale e scientifico. Ogni uso commerciale è vietato</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <witness xml:id="G" >
+        unica edizione a stampa. Si è utilizzata per questa edizione una scansione della copia conservata presso la Biblioteca Nazionale Centrale di Firenze.
+        </witness>
+          <bibl>
+          <title> La Veronica, o del sonetto. Dialogo di Don Vincenzo Toraldo d'Aragona</title>
+          
+          <title> La Veronica, o del sonetto. Dialogo di Don Vincenzo Toraldo d'Aragona</title>
+          <author> Don Vincenzo Toraldo d'Aragona 
+                <idno type="VIAF">34397165</idno>
+           </author>
+           <publisher>Appresso Girolamo Bartoli 
+                <idno type="VIAF">87124919</idno>
+           </publisher>
+           <pubPlace>Genova</pubPlace>
+           <date>1589</date>
+           <settlement>Biblioteca Nazionale Centrale di Firenze</settlement>
+           <idno>1178.10</idno>
+      </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+    <projectDesc>
+    <p>Sono state sciolte le abbreviazioni solamente qualora la porzione di testo abbreviato non fosse
+superiore ad una sillaba.Nel caso in cui la separazione delle parole differisse dall'uso moderno, si è intervenuto 
+solo qualora gli elementi della forma originale potessero esistere nell'uso moderno come parola autonoma; 
+sono state pertanto preservate le forme "se bene", "o pure", "ciò è", "tal hora" ma non le forme "laquale",
+ "inquanto", "ameraviglia", "fiamai", "ilche". Occorrono nel testo indifferentemente sia 
+"la quale" sia "laquale". Le forme "ij" ed "y", qualora rappresentassero il fonema "i" sono state rese con la forma "ii". 
+L'uso di apostrofi ed accenti è stato adattato all'uso moderno, così come quello delle lettere
+maiuscole. Nel testo originale occorrono sempre nella forma non accentata le parole "poiche", "perche",
+"oime"; occorrono invece in entrambe le forme le parole quì/qui, nò/no, è/e (verbo essere); più/piu;
+ò/o; à/a; nè/ne, ed i verbi monosillabici (fù/fu; sà/sa; etc.). In quest’ultimo caso prevale nettamente la
+forma accentata, e la forma non accentata si limita a poche occorrenze; in tutti gli altri il numero di occorrenze 
+delle due forme non presenta differenze significative. L'articolo "un" presenta
+l'apostrofo anche nella forma maschile; presenta l'apostrofo anche la forma "esser'vero".
+La punteggiatura è stata modificata solo nei casi in cui ostacolasse od appesantisse eccessivamente
+la comprensione del testo. La punteggiatura ricalca le intonazioni del parlato; per quanto possibile si è cercato di mantenere quest’uso. 
+È stato introdotto l'utilizzo delle lettere maiuscole dopo il punto fermo.
+       </p>    
+    </projectDesc>
+    <editorialDecl>
+      <normalization method="silent"></normalization>
+      <interpretation>
+      <p>
+      testi poetici contenuti nel dialogo sono in carattere corsivo. Questo elemento grafico è stato rimosso nella presente edizione. 
+      La presenza dei capilettera nell'edizione originale è stata segnalata in questa sede con il grassetto.
+      </p>I 
+      </interpretation>
+      <segmentation>
+      <p>
+       DA COMPILARE 
+      </p>
+      </segmentation>
+    </editorialDecl>
+     <variantEncoding location="internal" method="parallel-segmentation"/>
+    </encodingDesc>
+    <profileDesc>
+    <langUsage ident="it">italiano</langUsage>
+    <textClass>
+         <keywords>
+             <term type="form">poesia</term>
+             <term type="source">letteratura</term>
+             <term type="genre">lirica</term>
+         </keywords>    
+    </textClass>
+    </profileDesc>
+    <revisionDesc>
+    </revisionDesc>
+  </teiHeader>
+  
+  <text>
+<front>
+<head><hi rend="bold">I testi poetici della "Veronica"</hi></head>
+</front> 
+<l></l>
+<l></l>
+<l></l>
+    <body>
+    <div n="1" type="sonnet">
+    <head><hi rend="bold">I</hi></head>
+    <lg type="quatrain">
+    <l><hi rend="bold">S</hi>E in fronte al nome vostro impresso è il vero,</l>
+    <l>E in voi vera honestà, beltà verace</l>
+    <l>Con ragionar humilemente audace</l>
+    <l>Congionte sono, e con valore intiero;</l>
+    </lg>
+    <lg type="quartain">
+     <l>Qual meraviglia, o de le donne altiero,</l>
+     <l>Divino mostro, se per voi mi sface</l>
+     <l>Santo ardor sì, che mai non trovo pace</l>
+     <l>Co'l grave duol, s'in voi non penso, o spero?</l>    
+    </lg>
+    <lg type="tercet">
+    <l>Questa dunque mortal già morta spoglia</l>
+    <l>L'alma abbandona, e in voi brama ricetto,</l>
+    <l>Ardendo ogn'hor d''honesti alti desiri.</l>
+    </lg>
+    <lg type="tercet">
+    <l>Deh, con vera pietà sì vero affetto</l>
+    <l>Donna immortal gradite, e non vi doglia,</l>
+    <l>Che virtù vera anco amor vero ammiri.</l>
+    </lg>
+    </div>
+    
+    
+<div n="2" type="stanza">
+    <head><hi rend="bold">II</hi></head>
+    <lg type="stanza">
+    <l><hi rend="bold">C</hi>He miri, o tu ch'ammiri? È questo il mare,</l>
+    <l>Ov'io quasi balen ratta men gia</l>
+    <l>Mentre poteva il mio Delfin solcare</l>
+    <l>Di correnti cristalli ondosa via;</l>
+    <l>Immobil son nell'acque hor via più chiare,</l>
+    <l>Ma non liquide già, non più qual pria;</l>
+    <l>Così Diva maggior di me Fortuna</l>
+    <l>L'acque incristalla, et i bei vasi aduna.</l>
+    <l>[...]</l>    
+    </lg>
+    </div>    
+    
+    
+    
+    <div n="" type="sonnet">
+    <head><hi rend="bold"></hi></head>
+    <lg type="quatrain">
+    <l></l>
+    <l></l>
+    <l></l>
+    <l></l>
+    </lg>
+    <lg type="quatrain">
+    <l></l>
+    <l></l>
+    <l></l>
+    <l></l>
+    </lg>
+    <lg type="tercet">
+    <l></l>
+    <l></l>
+    <l></l>
+    </lg>
+    <lg type="tercet">
+    <l></l>
+    <l></l>
+    <l></l>
+    </lg>
+    </div>
+    
+    
+    </body>
+    </text>
+    </TEI>
