@@ -67,6 +67,9 @@ l'apostrofo anche nella forma maschile; presenta l'apostrofo anche la forma "ess
 La punteggiatura è stata modificata solo nei casi in cui ostacolasse od appesantisse eccessivamente
 la comprensione del testo. La punteggiatura ricalca le intonazioni del parlato; per quanto possibile si è cercato di mantenere quest’uso. 
 È stato introdotto l'utilizzo delle lettere maiuscole dopo il punto fermo.
+Nella stampa cinquecentesca ogni testa inizia con un capolettera che occupa due righe, ed alla sua destra sono scritti il primo
+ed il secondo verso.
+
        </p>    
     </projectDesc>
     <editorialDecl>
@@ -151,15 +154,177 @@ la comprensione del testo. La punteggiatura ricalca le intonazioni del parlato; 
     
     
     
-    <div n="" type="sonnet">
-    <head><hi rend="bold"></hi></head>
+    <div n="3" type="sonnet">
+    <head><hi rend="bold">III</hi></head>
     <lg type="quatrain">
-    <l></l>
+    <l><hi rend="bold">D</hi>'Aragne no, ma de la saggia figlia</l>
+    <l>Di Giove, emula un dì sedea Madonna,</l>
+    <l>Bianchi lini fregiando, e'n treccia, e'n gonna</l>
+    <l>Veri oggetti facea di meraviglia;</l>
+    </lg>
+    <lg type="quatrain">
+    <l>Quando inarcò Minerva ambe le ciglia</l>
+    <l>Dicendo: et ecco pur, che mortal donna</l>
+    <l>De l'arti mie, di mie virtù s'indonna,</l>
+    <l>Sì ch'in tutto osi dir, che mi somiglia.</l>
+    </lg>
+    <lg type="tercet">
+    <l>Onde l'hasta fatal presa,e lo scudo,</l>
+    <l>Per far di lei più che d'Aragne, gi va</l>
+    <l>Mossa da l'ira, e dal furor le piante.</l>
+    </lg>
+    <lg type="tercet">
+    <l>Amor, che da' begli occhi altrui feriva,</l>
+    <l>Strale avventò sì dolcemente crudo,</l>
+    <l><subst><del>Che da nemica </del><add place="errata corrige">Che di nemica</add></subst>ella divenne amante.</l>
+    </lg>
+    </div>
+    
+    
+    <div n="4" type="sonnet">
+    <head><hi rend="bold">IV</hi></head>
+    <lg type="quartain">
+    <l><hi rend="bold">C</hi>Into d'arabi odor, d'ostro pregiato,</l>
+    <l>Dal picciol sen natio lieto i pendea,</l>
+    <l>Et ove apparir suol l'alta tua Dea</l>
+    <l>Spesso emulava il volto suo beato;</l>
+    </lg>
+    <lg type="quartain">
+    <l>Svelto poscia da lei, più de l'usato</l>
+    <l>Fra vaghe treccie di fin'or godea,</l>
+    <l>Ma hor, ch'a te ne vengo, ahi forte rea,</l>
+    <l>Si volge in mesto il mio felice stato.</l>
+    </lg>
+    <lg type="tercet">
+    <l>De l'odorata Arabia i vaghi fiori</l>
+    <l>Spregiai talhora, e tanto ardir vedendo</l>
+    <l>Ella forse per pena a te m'invia.</l>
+    </lg>
+    <lg type="tercet">
+    <l>Pur mi consolo almen co i tuoi dolori,</l>
+    <l>Ahi pensier folle, ch'altri penaria</l>
+    <l>Tempi sovente, al duol compagni havendo?</l>
+    </lg>
+    </div>
+    
+    <div n="5" type="sonnet">
+    <head><hi rend="bold">V</hi></head>
+    <lg type="quartain">
+    <l><hi rend="bold">C</hi>Ari, amorosi fiori è ben simile</l>
+    <l>A voi mia sorte, a voi, cui raggio ardente</l>
+    <l>Serando, e aprendo il vago sen sovente</l>
+    <l>Giano vi dà il mattin, la sera Aprile.</l>
+    </lg>
+    <lg type="quartain">
+    <l>A voi somiglio, a voi, per ch'è mio stile</l>
+    <l>Serrare il petto, e aprirlo poi repente</l>
+    <l>Secondo i veggio il mio bel Sol lucente,</l>
+    <l>Et hor va seco, hor riede l'alma humile.</l>
+    </lg>
+    <lg type="tercet">
+    <l>Perch'in voi spento il naturale humore</l>
+    <l>Non siate secchi, et io di voi sia privo,</l>
+    <l>Caro dono di lei, d'acque vi bagno.</l>
+    </lg>
+    <lg type="tercet">
+    <l>E perché non sia cenere il mio core</l>
+    <l>Così'l circonda foco ardente, e vivo:</l>
+    <l>Questi due fonti mai non secco, o stagno.</l>
+    </lg>
+    </div>
+    
+    <div n="6" type="sonnet">
+    <head><hi rend="bold">VI</hi></head>
+    <lg type="quartain">
+    <l><hi rend="bold">S</hi>E vissi pria dal mio bel sole assente,</l>
+    <l>In imagin leggiadra il suo splendore</l>
+    <l>Nova luna accogliendo, al cieco horrore</l>
+    <l>L'amico raggio mi porgea sovente.</l>
+    </lg>
+    <lg type="quartain">
+    <l>E se più cruda assenza hor non consente,</l>
+    <l>Che di tal lume almen gioisca il core,</l>
+    <l>Chi'l crederia? M'aita il mesto humore,</l>
+    <l>Che fuor distilla il mio desire ardente.</l>
+    </lg>
+    <lg type="tercet">
+    <l>Sì come al novo dì sorgendo il Sole</l>
+    <l>Ne l'ampio mar, quasi in purgato vetro</l>
+    <l>Sé stesso di ritrar tal hora è vago,</l>
+    </lg>
+    <lg type="tercet">
+    <l>Sì nell'humor, ch'uscir dagli occhi suole,</l>
+    <l>Quella, c'ho nel pensier dipinta imago,</l>
+    <l>Si stampa; ond'io dal pianto il lume impetro.</l>
+    </lg>
+    </div>
+    
+    
+    <div n="7" type="sonnet">
+    <head><hi rend="bold">VII</hi></head>
+    <lg type="quartain">
+    <l><hi rend="bold">C</hi>Essa, Giove, il tonare; huom mai che dorme</l>
+    <l>Puote espugnare il cielo, e a te far onte?</l>
+    <l>Io stringo larve, e tu saette hai pronte,</l>
+    <l>Da' mentiti diletti, oimè, per torme.</l>
+    </lg>
+    <lg type="quartain">
+    <l>Non seguo io già di quei Giganti l'orme,</l>
+    <l>Che l'un mettendo sopra l'altro monte</l>
+    <l>Inalzavan superbi al ciel la fronte,</l>
+    <l>Sì c'hebber morte al grand'ardir conforme;</l>
+    </lg>
+    <lg type="tercet">
+    <l>Veggio sopiti i sensi la mia Diva</l>
+    <l>Mossa a pietà del mio sì lungo affanno</l>
+    <l>Mostrar segni d'amor, segni di pace.</l>
+    </lg>
+    <lg type="tercet">
+    <l>Ma s'invidia a destarmi, e farmi priva</l>
+    <l>Ti move l'a lma di sì dolce inganno,</l>
+    <l>Che saria, se'l gioir fosse verace?</l>
+    </lg>
+    </div>
+    
+    
+  
+    
+    
+    <div n="8" type="sonnet">
+    <head><hi rend="bold">VIII</hi></head>
+    <lg type="quartain">
+    <l><hi rend="bold">A</hi>Mor langue tua diva, e può languire</l>
+    <l>Nume divin per ineguale humore?</l>
+    <l>Ben veggio d'onde il mal, onde l'ardore</l>
+    <l>Ahi lasso, nasca in lei, d'onde il martire.</l>
+    </lg>
+    <lg type="quartain">
+    <l>Vid'io da' lumi suoi quei raggi uscire,</l>
+    <l>Che parole dettar soglion d'amore,</l>
+    <l>E gradir prometean mio vivo ardore</l>
+    <l>Giurando S tige, e i vidi poi mentire;</l>
+    </lg>
+    <lg type="tercet">
+    <l>Forse lei del divin fé priva il cielo,</l>
+    <l>Perch'empia rese vano il giuramento,</l>
+    <l>Ch'esser suol formidabile a gli Dei.</l>
+    </lg>
+    <lg type="tercet">
+    <l>E quindi avvien, c'hor senta caldo, e gielo,</l>
+    <l>E di nemiche febbri aspro tormento,</l>
+    <l>Onde già langue, e lo mio cor con lei.</l>
+    </lg>
+    </div>
+    
+      <div n="" type="sonnet">
+    <head><hi rend="bold"></hi></head>
+    <lg type="quartain">
+    <l><hi rend="bold"></hi></l>
     <l></l>
     <l></l>
     <l></l>
     </lg>
-    <lg type="quatrain">
+    <lg type="quartain">
     <l></l>
     <l></l>
     <l></l>
@@ -178,6 +343,12 @@ la comprensione del testo. La punteggiatura ricalca le intonazioni del parlato; 
     </div>
     
     
+    
+    
+    
+    
+    
     </body>
+  
     </text>
     </TEI>
