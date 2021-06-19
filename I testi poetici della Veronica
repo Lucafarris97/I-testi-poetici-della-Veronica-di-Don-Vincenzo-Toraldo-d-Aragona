@@ -1,0 +1,547 @@
+﻿<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:sqf="http://www.schematron-quickfix.com/validator/process" xmlns:sch="http://purl.oclc.org/dsdl/schematron" 
+xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">
+
+  <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+    <fileDesc>
+      <titleStmt>
+        <title>I testi poetici della "Veronica" di Don Vincenzo Toraldo d'Aragona</title>
+        <author> Vincenzo Toraldo d'Aragona</author>
+        <date>1589</date>
+        <respStmt xml:id="lfarris">
+         <resp>ha curato l'edizione</resp>
+         <persName>Luca Farris</persName>
+        </respStmt>,
+      </titleStmt>
+      <editionStmt> 
+          <edition><p> Questo progetto nasce da un'edizione interpretativa, realizzata come tesi di laurea triennale (non pubblicata),
+           de "La Veronica, o del sonetto" di Don Vincenzo Toraldo d'Aragona. 
+      All'interno del dialogo l'autore inserisce alcuni testi poetici, composti con il nome di "Risvegliato" nell'ambito 
+      dell'Accademia degli Svegliati di Napoli, probabilmente tra il 1584 ed il 1589. Si procederà in questa sede all'edizione di quei
+       testi. Si è deciso di includere anche lo scambio di sonetti tra il principe Alberico Cybo Malaspina e Don Vincenzo Toraldo d'Aragona. 
+       Non sono stati inclusi i testi di altri autori riportati nella "Veronica".
+      </p></edition>
+      </editionStmt>
+      <extent>21239 caratteri spazi esclusi</extent>
+      <publicationStmt>
+        <p> Questo lavoro è realizzato in funzione dell'esame di Informatica Umanistica e Filologia Digitale, ed è disponibile sulla piattaforma GitHub</p>
+<date when="2021-06-19" >19/06/2021</date>       
+        <availability>
+        <p>Questa risorsa è liberamente accessibile per uso personale e scientifico. Ogni uso commerciale è vietato</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <witness xml:id="F">
+        Unica edizione a stampa. Si è utilizzata una scansione della copia conservata presso la Biblioteca Nazionale Centrale di Firenze.
+        </witness>
+        <bibl>
+          <title> La Veronica, o del sonetto. Dialogo di Don Vincenzo Toraldo d'Aragona</title>
+          <author> Don Vincenzo Toraldo d'Aragona 
+                <idno type="VIAF">34397165</idno>
+           </author>
+           <author>Alberico Cybo Malaspina
+           <idno type="VIAF">19622507</idno>
+           </author>
+           <publisher>Girolamo Bartoli 
+                <idno type="VIAF">87124919</idno>
+           </publisher>
+           <pubPlace>Genova</pubPlace>
+           <date>1589</date>
+           <settlement>Biblioteca Nazionale Centrale di Firenze</settlement>
+           <idno>1178.10</idno>
+      </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+    <projectDesc>
+    <p>Nel caso in cui la separazione delle parole differisse dall'uso moderno, si è intervenuto 
+solo qualora gli elementi della forma originale potessero esistere nell'uso moderno come parola autonoma; 
+sono state pertanto preservate le forme "se bene", "o pure", "ciò è", "tal hora" ma non le forme "laquale",
+ "inquanto", "ameraviglia", "fiamai", "ilche". Occorrono nel testo indifferentemente sia 
+"la quale" sia "laquale". Le forme "ij" ed "y", qualora rappresentassero il fonema "i" sono state rese con la forma "ii". 
+L'uso di apostrofi ed accenti è stato adattato all'uso moderno. Nel testo originale occorrono sempre nella forma non accentata le parole "poiche", "perche",
+"oime"; occorrono invece in entrambe le forme le parole quì/qui, nò/no, è/e (verbo essere); più/piu;
+ò/o; à/a; nè/ne, ed i verbi monosillabici (fù/fu; sà/sa; etc.). In quest’ultimo caso prevale nettamente la
+forma accentata, e la forma non accentata si limita a poche occorrenze; in tutti gli altri il numero di occorrenze 
+delle due forme non presenta differenze significative. L'articolo "un" presenta
+l'apostrofo anche nella forma maschile; presenta l'apostrofo anche la forma "esser'vero".
+La punteggiatura è stata modificata solo nei casi in cui ostacolasse od appesantisse eccessivamente
+la comprensione del testo. La punteggiatura ricalca le intonazioni del parlato; per quanto possibile si è cercato di mantenere quest’uso. 
+È stato introdotto l'utilizzo delle lettere maiuscole dopo il punto fermo.
+Nella stampa cinquecentesca i testi poetici iniziano con un capolettera che occupa due righe, ed alla sua destra sono scritti il primo
+ed il secondo verso.
+             </p>    
+    </projectDesc>
+    <editorialDecl>
+      <normalization method="markup"></normalization>
+      <interpretation>
+      <p>
+      I testi poetici contenuti nel dialogo sono in carattere corsivo. Questo elemento grafico è stato rimosso nella presente edizione. 
+      La presenza dei capilettera nell'edizione originale è stata segnalata in questa sede con il grassetto.
+      </p>I 
+      </interpretation>
+      <segmentation>
+      <p>
+       La numerazione dei testi ed i titoli dei sonetti XII e XIII sono stati introdotti dal curatore nella presente edizione.
+      </p>
+      </segmentation>
+    </editorialDecl>
+     <variantEncoding location="internal" method="parallel-segmentation"/>
+    </encodingDesc>
+    <profileDesc>
+    <langUsage ident="it">italiano</langUsage>
+    <textClass>
+         <keywords>
+             <term type="form">poesia</term>
+             <term type="source">letteratura</term>
+             <term type="genre">lirica</term>
+         </keywords>    
+    </textClass>
+    </profileDesc>
+    <revisionDesc>
+    </revisionDesc>
+  </teiHeader>
+  
+  <text>
+<front>
+<head><hi rend="bold">I testi poetici della "Veronica"</hi></head>
+</front> 
+<body>
+    <div n="1" type="sonnet">
+    <head><hi rend="bold">I</hi></head>
+    <lg type="quatrain">
+    <l><hi rend="bold">S</hi>E in fronte al nome vostro impresso è il vero,</l>
+    <l>E in voi vera honestà, beltà verace</l>
+    <l>Con ragionar humilemente audace</l>
+    <l>Congionte sono, e con valore intiero<choice><orig>.</orig><reg>;</reg></choice></l>
+    </lg>
+    <lg type="quartain">
+     <l>Qual meraviglia, <choice><orig>ò</orig><reg>o</reg></choice> de le donne altiero,</l>
+     <l>Divino mostro, se per voi mi sface</l>
+     <l>Santo ardor sì, che mai non trovo pace</l>
+     <l>Co'l grave duol, s'in voi non penso, <choice><orig>ò</orig><reg>o</reg></choice> spero?</l>    
+    </lg>
+    <lg type="tercet">
+    <l>Questa dunque mortal già morta spoglia</l>
+    <l>L'alma abbandona, e in voi brama ricetto,</l>
+    <l>Ardendo ogn'hor d'honesti<choice><orig>,</orig></choice> alti desiri.</l>
+    </lg>
+    <lg type="tercet">
+    <l>Deh, con vera pietà sì vero affetto</l>
+    <l>Donna immortal gradite, e non vi doglia,</l>
+    <l>Che virtù vera anco amor vero ammiri.</l>
+    </lg>
+    </div>
+    
+    
+<div n="2" type="ottava rima">
+    <head><hi rend="bold">II</hi></head>
+    <lg type="stanza">
+    <l><hi rend="bold">C</hi>He miri, <choice><orig>ò</orig><reg>o</reg></choice> tu ch'ammiri? <choice><orig>è</orig><reg>È</reg></choice> questo il mare,</l>
+    <l>Ov'io quasi balen ratta men gia</l>
+    <l>Mentre poteva il mio Delfin solcare</l>
+    <l>Di correnti cristalli ondosa via;</l>
+    <l>Immobil son nell'acque hor via più chiare,</l>
+    <l>Ma non liquide già, non più qual pria;</l>
+    <l>Così Diva maggior di me Fortuna</l>
+    <l>L'acque incristalla, et i bei vasi aduna.</l>
+    <l><choice><reg>[...]</reg></choice></l>    
+    </lg>
+    </div>    
+    
+    
+    
+    <div n="3" type="sonnet">
+    <head><hi rend="bold">III</hi></head>
+    <lg type="quatrain">
+    <l><hi rend="bold">D</hi>'Aragne <choice><orig>nò</orig><reg>no</reg></choice>, ma de la saggia figlia</l>
+    <l>Di Giove, emula un dì sedea Madonna,</l>
+    <l>Bianchi lini fregiando, e'n treccia, e'n gonna</l>
+    <l>Veri oggetti facea di meraviglia;</l>
+    </lg>
+    <lg type="quatrain">
+    <l>Quando inarcò Minerva ambe le ciglia</l>
+    <l>Dicendo<choice><orig>:</orig><reg> - </reg></choice> et ecco pur, che mortal donna</l>
+    <l>De l'arti mie, di mie virtù s'indonna,</l>
+    <l>Sì ch'in tutto osi dir, che mi somiglia<choice><reg> - </reg></choice>.</l>
+    </lg>
+    <lg type="tercet">
+    <l>Onde l'hasta fatal presa, e lo scudo,</l>
+    <l>Per far di lei <choice><orig>piu,</orig><reg>più</reg></choice> che d'Aragne, giva</l>
+    <l>Mossa da l'ira, e dal furor le piante.</l>
+    </lg>
+    <lg type="tercet">
+    <l>Amor, che da' begli occhi altrui feriva,</l>
+    <l>Strale avventò sì dolcemente crudo,</l>
+    <l><subst><del>Che da nemica</del><add place="errata corrige">Che di nemica</add></subst> ella divenne amante.</l>
+    </lg>
+    </div>
+    
+    
+    <div n="4" type="sonnet">
+    <head><hi rend="bold">IV</hi></head>
+    <lg type="quartain">
+    <l><hi rend="bold">C</hi>Into d'arabi odor, d'ostro pregiato,</l>
+    <l>Dal picciol sen natio lieto i pendea,</l>
+    <l>Et ove apparir suol l'alta tua Dea</l>
+    <l>Spesso emulava il volto suo beato;</l>
+    </lg>
+    <lg type="quartain">
+    <l>Svelto poscia da lei, <choice><orig>piu</orig><reg>più</reg></choice> de l'usato</l>
+    <l>Fra vaghe treccie di fin'or godea,</l>
+    <l>Ma hor, ch'<choice><orig>à</orig><reg>a</reg></choice> te ne vengo, ahi sorte rea,</l>
+    <l>Si volge in mesto il mio felice stato.</l>
+    </lg>
+    <lg type="tercet">
+    <l>De l'odorata Arabia i vaghi fiori</l>
+    <l>Spregiai talhora, e tanto ardir vedendo</l>
+    <l>Ella forse per pena <choice><orig>à</orig><reg>a</reg></choice> te m'invia.</l>
+    </lg>
+    <lg type="tercet">
+    <l>Pur mi consolo almen co i tuoi dolori,</l>
+    <l>Ahi pensier folle, ch'altri penaria</l>
+    <l>Tempi sovente, al duol compagni havendo?</l>
+    </lg>
+    </div>
+    
+    <div n="5" type="sonnet">
+    <head><hi rend="bold">V</hi></head>
+    <lg type="quartain">
+    <l><hi rend="bold">C</hi>Ari, amorosi fiori è ben simile</l>
+    <l>A voi mia sorte, <choice><orig>à</orig><reg>a</reg></choice> voi, cui raggio ardente</l>
+    <l>Serando, e aprendo il vago sen sovente</l>
+    <l>Giano vi dà il mattin, la sera Aprile.</l>
+    </lg>
+    <lg type="quartain">
+    <l>A voi somiglio, <choice><orig>à</orig><reg>a</reg></choice> voi, per ch'è mio stile</l>
+    <l>Serrare il petto, e aprirlo poi repente</l>
+    <l>Secondo i veggio il mio bel Sol lucente,</l>
+    <l>Et hor <choice><orig>và</orig><reg>va</reg></choice> seco, hor riede l'alma humile.</l>
+    </lg>
+    <lg type="tercet">
+    <l>Perch'in voi spento il naturale humore</l>
+    <l>Non siate secchi, et io di voi sia privo,</l>
+    <l>Caro dono di lei, d'acque vi bagno.</l>
+    </lg>
+    <lg type="tercet">
+    <l>E <choice><orig>perche</orig><reg>perché</reg></choice> non sia cenere il mio core</l>
+    <l>Così'l circonda foco ardente, e vivo:</l>
+    <l>Questi due fonti mai non secco, <choice><orig>ò</orig><reg>o</reg></choice> stagno.</l>
+    </lg>
+    </div>
+    
+    <div n="6" type="sonnet">
+    <head><hi rend="bold">VI</hi></head>
+    <lg type="quartain">
+    <l><hi rend="bold">S</hi>E vissi pria dal mio bel sole assente,</l>
+    <l>In imagin leggiadra il suo splendore</l>
+    <l>Nova luna accogliendo, al cieco horrore</l>
+    <l>L'amico raggio mi porgea sovente.</l>
+    </lg>
+    <lg type="quartain">
+    <l>E se più cruda assenza<choice><orig>,</orig></choice> hor non consente,</l>
+    <l>Che di tal lume almen gioisca il core,</l>
+    <l><choice><reg>- </reg></choice>Chi'l crederia?<choice><reg> - </reg></choice> m'aita il mesto humore,</l>
+    <l>Che fuor distilla il mio desire ardente.</l>
+    </lg>
+    <lg type="tercet">
+    <l><choice><orig>Si</orig><reg>Sì</reg></choice> come al novo dì sorgendo il Sole</l>
+    <l>Ne l'ampio mar, quasi in purgato vetro</l>
+    <l><choice><orig>Se</orig><reg>Sé</reg></choice> stesso di ritrar tal hora è vago,</l>
+    </lg>
+    <lg type="tercet">
+    <l><choice><orig>Si</orig><reg>Sì</reg></choice> nell'humor, ch'uscir dagli occhi suole,</l>
+    <l>Quella, <choice><orig>c'hò</orig><reg>c'ho</reg></choice> nel pensier dipinta imago,</l>
+    <l>Si stampa; ond'io dal pianto il lume impetro.</l>
+    </lg>
+    </div>
+    
+    
+    <div n="7" type="sonnet">
+    <head><hi rend="bold">VII</hi></head>
+    <lg type="quartain">
+    <l><hi rend="bold">C</hi>Essa<choice><reg>,</reg></choice> Giove, il tonare<choice><orig>,</orig><reg>;</reg></choice> huom mai che dorme</l>
+    <l>Puote espugnare il cielo, e <choice><orig>à</orig><reg>a</reg></choice> te <choice><orig>far'onte</orig><reg>far onte</reg></choice>?</l>
+    <l>Io stringo larve, e <choice><orig>tù</orig><reg>tu</reg></choice> saette hai pronte,</l>
+    <l>Da' mentiti diletti, <choice><orig>oime</orig><reg>oimé</reg></choice>, per torme.</l>
+    </lg>
+    <lg type="quartain">
+    <l>Non seguo io già di quei Giganti l'orme,</l>
+    <l>Che l'un mettendo sopra l'altro monte</l>
+    <l>Inalzavan superbi al ciel la fronte,</l>
+    <l>Sì c'hebber morte al grand'ardir conforme;</l>
+    </lg>
+    <lg type="tercet">
+    <l>Veggio sopiti i sensi la mia Diva</l>
+    <l>Mossa <choice><orig>à</orig><reg>a</reg></choice> pietà del mio sì lungo affanno</l>
+    <l>Mostrar segni d'amor, segni di pace.</l>
+    </lg>
+    <lg type="tercet">
+    <l>Ma s'invidia a destarmi, e farmi priva</l>
+    <l>Ti move l'alma di sì dolce inganno,</l>
+    <l>Che saria, se'l gioir fosse verace?</l>
+    </lg>
+    </div>
+    
+    
+  
+    
+    
+    <div n="8" type="sonnet">
+    <head><hi rend="bold">VIII</hi></head>
+    <lg type="quartain">
+    <l><hi rend="bold">A</hi>Mor langue tua diva, e può languire</l>
+    <l>Nume divin per ineguale humore?</l>
+    <l>Ben veggio d'onde il mal, onde l'ardore</l>
+    <l>Ahi lasso, nasca in lei, d'onde il martire.</l>
+    </lg>
+    <lg type="quartain">
+    <l>Vid'io da' lumi suoi quei raggi uscire,</l>
+    <l>Che parole dettar soglion d'amore,</l>
+    <l>E gradir prometean mio vivo ardore</l>
+    <l>Giurando Stige, e i vidi poi mentire<choice><orig>,</orig><reg>;</reg></choice></l>
+    </lg>
+    <lg type="tercet">
+    <l>Forse lei del divin <choice><orig>fe</orig><reg>fé</reg></choice> priva il cielo,</l>
+    <l>Perch'empia rese vano il giuramento,</l>
+    <l>Ch'esser suol formidabile <choice><orig>à</orig><reg>a</reg></choice> gli Dei.</l>
+    </lg>
+    <lg type="tercet">
+    <l>E quindi avvien, c'hor senta caldo, e gielo,</l>
+    <l>E di nemiche febbri aspro tormento,</l>
+    <l>Onde già langue, e lo mio cor con lei.</l>
+    </lg>
+    </div>
+    
+     
+     <div n="9" type="ottava rima">
+     <head><hi rend="bold">IX</hi></head>
+    <lg type="stanza">
+    <l><hi rend="bold">S</hi>Telle, che già con gli argentati rai</l>
+    <l>Tacendo accompagnaste i miei diletti.</l> 
+    <l>Ed hor mi sete scorta <choice><orig>à</orig><reg>a</reg></choice> pene e guai</l>
+    <l>Con sì maligni, tenebrosi aspetti;</l> 
+    <l>A voi dirò quel<choice><orig>,</orig></choice> ch'a ciascun celai,</l> 
+    <l>Vaghi ornamenti de i superni tetti;</l> 
+    <l>A chi meco <choice><orig>hà</orig><reg>ha</reg></choice> piacer, meco <choice><orig>hà</orig><reg>ha</reg></choice> tormento,</l> 
+    <l>Devo scuoprir quel<choice><orig>,</orig></choice> che ne l'alma io sento.</l> 
+    </lg>
+    <lg type="stanza">
+    <l>Ma taci Echo <choice><orig>frà</orig><reg>fra</reg></choice> tanto, <choice><orig>ò</orig><reg>o</reg></choice> se pur vuoi</l>
+    <l>Sfogar tue pene al suon de' miei lamenti,</l> 
+    <l>Non geminar fra cavi salsi tuoi</l> 
+    <l>L'ultime note mie, gl'ultimi accenti,</l> 
+    <l>Deh vanne, <choice><orig>oime</orig><reg>oimé</reg></choice>, deh vanne ove <choice><orig>tù</orig><reg>tu</reg></choice> puoi</l> 
+    <l>Bearti, e fare i miei desir contenti,</l> 
+    <l>Ne l'orecchie t'ascondi hor di colei,</l> 
+    <l>e fra quelle raddoppia i detti miei<choice><orig>,</orig><reg>.</reg></choice></l> 
+    </lg>
+    <lg type="stanza">
+    <l>In odorosa, amena valle sorge</l> 
+    <l>Tenero fior d'ape non tocco ancora,</l> 
+    <l>Che tanto odor, tanta vaghezza porge,</l> 
+    <l>Che ciaschedun di <choice><orig>se</orig><reg>sé</reg></choice> tosto innamora,</l> 
+    <l>Sì vago fior che sol m'invita, e scorge</l> 
+    <l>A contemplar le sue bellezze ogn'hora;</l> 
+    <l>Corre, lasso, il potei, ma ciò non volsi;</l> 
+    <l>L'odor di ben, di lui sol questo io colsi.</l> 
+    </lg>
+    <lg type="stanza">
+    <l>Fonte vid'io fra vaghe, ombrose piante</l> 
+    <l>Anco non visto d'assetato augello,</l> 
+    <l>Fonte di chiaro, limpido diamante</l> 
+    <l>Converso in dolce humor pregiato, e bello;</l> 
+    <l>Quivi anhelando già posai le piante,</l> 
+    <l>Qual cervo, cui trafigga empio quadrello;</l> 
+    <l>Ma no'l turbai, non m'attuffai nell'onde,</l> 
+    <l>Arsi via più, libando sol le sponde.</l> 
+    </lg>
+    <lg type="stanza">
+    <l>Poche stille gustai, ma più pregiate</l> 
+    <l>Di quante acque giamai spenser mia sete,</l> 
+    <l>Poche stille fur ben, ma sì beate,</l> 
+    <l>Ch'ogni pena, ogni duol spargon di lete,</l> 
+    <l>Tutti i dolor, le pene mie passate</l> 
+    <l>Sparvero all'hora in quelle sponde liete,</l> 
+    <l>Ogni passato mal posi in oblio,</l> 
+    <l>Ma hor m'ancide novo mal più rio.</l> 
+    </lg>
+    <lg type="stanza">
+    <l>O felice colui, che ne gli horrori</l> 
+    <l>Arso di sete, onde fugaci <choice><orig>hà</orig><reg>ha</reg></choice> intorno,</l> 
+    <l>Che non havendo quei bramati humori</l> 
+    <l>Gustato mai, spera gustargli un giorno;</l> 
+    <l>Ma se l'acque gustassi, e a' primi ardori,</l> 
+    <l>Al mal di pria facessi poi ritorno,</l> 
+    <l>Tantalo haresti ben pene aspre, e rie;</l> 
+    <l>Ma non eguali <choice><orig>à</orig><reg>a</reg></choice> l'aspre pene mie.</l> 
+    </lg>
+    <lg type="stanza">
+    <l><choice><orig>Tù</orig><reg>Tu</reg></choice> provaresti al fine acque terrene,</l> 
+    <l>Anzi men che terrene, acque infernali,</l> 
+    <l>Le quai se gusti pur di maggior pene</l> 
+    <l>Ti saranno cagion, di maggior mali;</l> 
+    <l>Onda io gustai, ch'irriga aurate arene,</l> 
+    <l><choice><reg>-</reg></choice>Che dico?<choice><reg>-</reg></choice> onde al divin nettare eguali,</l> 
+    <l>Hor di gustarle non <choice><orig>hò</orig><reg>ho</reg></choice> più speranza,</l> 
+    <l>Misero; questo è duol, ch'ogni altro avanza.</l> 
+    </lg>
+    <lg type="stanza">
+    <l>Ninfa tu, che de l'onde sacre hai cura<choice><orig>,</orig></choice></l> 
+    <l>Ch'offristi <choice><orig>à</orig><reg>a</reg></choice> gli ardor miei vivaci e spessi,</l> 
+    <l>Ne l'onde tue conserva intiera<choice><orig>,</orig></choice> e pura</l> 
+    <l>L'imagin mia, ch'in lor mio specchio impressi,</l> 
+    <l>E se ben voglia, <choice><orig>oime</orig><reg>oimé</reg></choice> nemica, e dura</l> 
+    <l>Di lor mi priva, ch'al mio bene elessi,</l> 
+    <l>Deh per Dio, <choice><orig>tù</orig><reg>tu</reg></choice> per me conserva l'onda,</l> 
+    <l><choice><orig>Ne</orig><reg>Né</reg></choice> consentir, ch'in lei pur caggia fronda;</l> 
+    </lg>
+    <lg type="stanza">
+    <l>Hor, che calda stagion l'onde t'agghiaccia,</l> 
+    <l><choice><orig>Si</orig><reg>Sì</reg></choice> come suole, e nostre voglie accende,</l> 
+    <l>Nel tuo gelato sen tu Dea m'abbraccia,</l> 
+    <l>Ed estingui il calor, ch'arso mi rende;</l> 
+    <l>L'horrido verno poi verrà, che scaccia</l> 
+    <l>Dai fonti il gel, che dolci altrui gli rende;</l> 
+    <l>Harai tepide <choice><orig>à</orig><reg>a</reg></choice> l'hor l'acque divine,</l> 
+    <l>E nostra sete sarà spenta al fine.</l> 
+    </lg>
+    </div>
+    
+      <div n="10" type="sonnet">
+    <head><hi rend="bold">X</hi></head>
+    <lg type="quartain">
+    <l><hi rend="bold">S</hi>E conformi i voleri i pensier degni</l>
+    <l>Non son <choice><orig>,</orig><reg>-</reg></choice> diss'ella <choice><reg>-</reg></choice> Amor non è perfetto<choice><orig>,</orig><reg>.</reg></choice></l>
+    <l>Tal era il giuoco, ed <choice><orig>à</orig><reg>a</reg></choice> l'istesso detto</l>
+    <l>Nostro io soggiunsi, e così accrebbi i pegni.</l>
+    </lg>
+    <lg type="quartain">
+    <l>E chiave diedi, in cui Vulcano ingegni</l>
+    <l>Pose per far, ch'in picciol ferro, e stretto</l>
+    <l>Il foco tuoni, allhor giudice eletto.</l>
+    <l><choice><reg>- </reg></choice>Prendi <choice><orig> - à</orig><reg>- a</reg></choice> lei disse <choice><reg>- </reg></choice>acciò comandi, e regni.</l>
+    </lg>
+    <lg type="tercet">
+    <l>Alto destino, <choice><reg>a</reg></choice> lei, che <choice><orig>fù</orig><reg>fu</reg></choice> si presta</l>
+    <l>La chiave <choice><orig>à</orig><reg>a</reg></choice> tor del mio infocato core<choice><reg>,</reg></choice></l>
+    <l>Darsi quest'altra pur chiave di foco;</l>
+    </lg>
+    <lg type="tercet">
+    <l>All'hor <choice><reg> - </reg></choice>disse ella <choice><reg> -</reg></choice> se riscuoter questa</l>
+    <l>Brami, palesa: in te chi <choice><orig>ha</orig><reg>ha</reg></choice> maggior loco</l>
+    <l>Sdegno, od Amore? <choice><orig>io</orig><reg>- Io</reg></choice> le risposi <choice><orig>;</orig><reg>- </reg></choice>Amore<choice><reg> -</reg></choice>.</l>
+    </lg>
+    </div>
+    
+    
+       <div n="11" type="sonnet">
+    <head><hi rend="bold">XI</hi></head>
+    <lg type="quartain">
+    <l><hi rend="bold">C</hi>Hina gli occhi Narciso, e in picciol chiostro</l>
+    <l>D'onde chiare vede ei richiuso un Sole</l>
+    <l>Ne le fredd'acque già, mentre ber vuole<choice><reg>,</reg></choice></l>
+    <l>Stampa del volto suo l'avorio, e l'ostro.</l>
+    </lg>
+    <lg type="quartain">
+    <l>E se vedendo altiero, e raro mostro,</l>
+    <l>Di sé <subst><del>divenne</del><add place="errata corrige">diviene</add></subst>amante, arde, e si duole,</l>
+    <l>E celebrando <choice><orig>se</orig><reg>sé</reg></choice>, forma parole</l>
+    <l>Degne di eterno e di famoso inchiostro.</l>
+    </lg>
+    <lg type="tercet">
+    <l>E in me, Giovardi, havendo i lumi aperti,</l>
+    <l>In me di pianto sol fontana<choice><reg>,</reg></choice> e rio<choice><orig>,</orig></choice></l>
+    <l><choice><orig>Mercè</orig><reg>Mercé</reg></choice> al foco d'Amore, e <choice><orig>à</orig><reg>a</reg></choice> i dardi suoi<choice><orig>.</orig><reg>,</reg></choice></l>
+    </lg>
+    <lg type="tercet">
+    <l>Ritratti rimirate i vostri merti</l>
+    <l>Concedendogli <choice><orig>à</orig><reg>a</reg></choice> me, forse perch'io</l>
+    <l><choice><orig>V'amò</orig><reg>V'amo</reg></choice> così, che mi trasformo in voi.</l>
+    </lg>
+    </div>
+    
+    
+    <div n="12" type="sonnet">
+    <head><hi rend="bold">XII - </hi></head>
+   <head><hi rend="italic">Alberico Cybo Malaspina a Vincenzo Toraldo d'Aragona</hi></head>
+    <lg type="quartain">
+    <l><hi rend="bold">M</hi>Entre qual suol <choice><orig>tal'hora</orig><reg>tal hora</reg></choice> augel sovrano</l>
+    <l>Oso <choice><orig>mirar'in</orig><reg>mirar in</reg></choice> voi, lucido Sole,</l>
+    <l>Voi, cui drizzo la vista, e le parole<choice><reg>,</reg></choice></l>
+    <l>Fate, ch'io non mi abbagli, e guardi in vano;</l>
+    </lg>
+    <lg type="quartain">
+    <l>Da me, Signore altieramente humano,</l>
+    <l>Come al più chiaro giorno Apollo suole,</l>
+    <l>Di vivo affetto, che v'honora, e cole,</l>
+    <l>Vapor tirate, con più larga mano;</l>
+    </lg>
+    <lg type="tercet">
+    <l>E fra quest'occhi infermi, e'l vostro volto<choice><reg>,</reg></choice></l>
+    <l>Spiegandol quasi velo, fate poi,</l>
+    <l>Che dolcemente adombri il lume altiero;</l>
+    </lg>
+    <lg type="tercet">
+    <l>Così potrò, mentre da nube involto</l>
+    <l>Il vostro Sol traluce, alzare <choice><orig>à</orig><reg>a</reg></choice> voi</l>
+    <l>Lo sguardo, et appagar l'alto pensiero.</l>
+    </lg>
+    </div>
+    
+    <div n="13" type="sonnet">
+    <head><hi rend="bold">XIII - </hi></head>
+    <head><hi rend="italic">Vincenzo Toraldo d'Aragona ad Alberico Cybo Malaspina</hi></head>
+    <lg type="quartain">
+    <l><hi rend="bold">V</hi>Ostra virtù, che <choice><orig>à</orig><reg>a</reg></choice> par del Sol risplende,</l>
+    <l>Fia<choice><orig>,</orig></choice> ch'assicuri il degno sguardo vostro,</l>
+    <l>E da l'oscuro, e tenebroso chiostro</l>
+    <l>L'alzi ov'eternità fiammeggia, e splende;</l>
+    </lg>
+    <lg type="quartain">
+    <l>Quivi vostra bell'alma ardita ascende,</l>
+    <l>Sprezzando con ragion quant'è nel nostro</l>
+    <l>Polo, ch'<choice><orig>à</orig><reg>a</reg></choice> <choice><orig>se</orig><reg>sé</reg></choice> non <choice><orig>hà</orig><reg>ha</reg></choice> pari oro, od ostro,</l>
+    <l><choice><orig>Ne</orig><reg>Né</reg></choice> mai nube, nebbia, ombra, horror l'offende.</l>
+    </lg>
+    <lg type="tercet">
+    <l>Del vostro affetto il vapor chiaro, e degno</l>
+    <l>Non adombra il mio lume <choice><orig>à</orig><reg>a</reg></choice> voi rivolto,</l>
+    <l>Ma forma <choice><orig>à</orig><reg>a</reg></choice> l'alma mia lucenti stelle;</l>
+    </lg>
+    <lg type="tercet">
+    <l>Onde fia<choice><orig>,</orig></choice> ch'io per voi risplenda, segno</l>
+    <l>A i bei pensieri, <choice><orig>à</orig><reg>a</reg></choice> l'opre illustri, e belle,</l>
+    <l>In cui'l nome di voi sia impresso, e scolto.</l>
+    </lg>
+    </div>
+    
+
+   <div n="14" type="sonnet">
+    <head><hi rend="bold">XIV</hi></head>
+    <lg type="quartain">
+    <l><hi rend="bold">P</hi>I<choice><orig>u</orig><reg>ù</reg></choice> che mai chiari i suoi christalli Ibero</l>
+    <l>Del mar congiunse <choice><orig>à</orig><reg>a</reg></choice> i liquidi zaffiri,</l>
+    <l>Onde appagar potesse i bei desiri</l>
+    <l>Di veder voi<choice><reg>,</reg></choice> suo caro Idolo altero.</l>
+    </lg>
+    <lg type="quartain">
+    <l>Versò torbido humor Sebeto , e nero,</l>
+    <l>Non potendo soffrir, che dolce spiri</l>
+    <l>Zefiro, e lunge sì da lui v'aggiri</l>
+    <l>Mentr'ei v'arride in grembo al salso impero;</l>
+    </lg>
+    <lg type="tercet">
+    <l>Ma il gran Padre Nettuno altrui cortese,</l>
+    <l>Sciogliendo a i venti, e <choice><orig>à</orig><reg>a</reg></choice> le procelle il freno,</l>
+    <l>L'onde commosse, e destò Borea, e Noto;</l>
+    </lg>
+    <lg type="tercet">
+    <l><choice><orig>Si</orig><reg>Sì</reg></choice> vi tenne <choice><orig>à</orig><reg>a</reg></choice> Sebeto alquanto in seno;</l>
+    <l>E <choice><orig>à</orig><reg>a</reg></choice> tranquillar poi l'acque irate attese,</l>
+    <l>Ond'anco sciolga il ricco Ibero il voto.</l>
+    </lg>
+    </div>
+    
+    </body>
+    </text>
+    </TEI>
